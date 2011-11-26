@@ -14,7 +14,7 @@
   <active>no</active>
  </lead>
  <date>2011-11-26</date>
- <time>21:37:38</time>
+ <time>21:50:33</time>
  <version>
   <release>0.2.2</release>
   <api>0.2.2</api>
@@ -31,43 +31,9 @@ Updated to Package 2.0, fixed Request #12150 - Improve coding standard adherence
   <dir baseinstalldir="/" name="/">
    <file baseinstalldir="/" md5sum="a84092ceaae3b337d79e09f8768085df" name="data/ZA_postcodes.txt" role="data" />
    <file baseinstalldir="/" md5sum="44974f547e89a9a52e8ae95463318088" name="tests/validate_ZA.phpt" role="test" />
-   <file baseinstalldir="/" md5sum="bb62407a1bc894c72e23cd05cea9c8c5" name="Validate/AR.php" role="php" />
-   <file baseinstalldir="/" md5sum="fbde43df522169fe6be264ba5ff20ec1" name="Validate/AT.php" role="php" />
-   <file baseinstalldir="/" md5sum="5ee82bd88f4ed187c228567fd14256ac" name="Validate/BE.php" role="php" />
-   <file baseinstalldir="/" md5sum="57d7256582464c890963bea413263d37" name="Validate/CA.php" role="php" />
-   <file baseinstalldir="/" md5sum="80788a66460361fd3fdbf391f6b9fdbf" name="Validate/CH.php" role="php" />
-   <file baseinstalldir="/" md5sum="eb38a35cac467b9efb894457c72c9a58" name="Validate/DE.php" role="php" />
-   <file baseinstalldir="/" md5sum="d3d6ef579fb8df14e18660cab310294d" name="Validate/DK.php" role="php" />
-   <file baseinstalldir="/" md5sum="705ae44040802ca41143845416af4195" name="Validate/ES.php" role="php" />
-   <file baseinstalldir="/" md5sum="f711a23a0c24fd18a3dfbed91eb93a92" name="Validate/esMX.php" role="php" />
-   <file baseinstalldir="/" md5sum="d25635749efc0dde908808875d399918" name="Validate/FI.php" role="php" />
-   <file baseinstalldir="/" md5sum="6d482980ed8d4c50325653f252454300" name="Validate/Finance.php" role="php" />
-   <file baseinstalldir="/" md5sum="680fa380770ecadae0c6f641d2d0bb01" name="Validate/FR.php" role="php" />
-   <file baseinstalldir="/" md5sum="e9b79572425374be4f9e79de8cc55509" name="Validate/HU.php" role="php" />
-   <file baseinstalldir="/" md5sum="45ccfa89b5e06b2975b07a2330106d95" name="Validate/IE.php" role="php" />
-   <file baseinstalldir="/" md5sum="9c7a47bd088b67cb878b5380ea33c7d0" name="Validate/IN.php" role="php" />
-   <file baseinstalldir="/" md5sum="b7d85c2a334ae99760bcb71f967d30ae" name="Validate/IR.php" role="php" />
-   <file baseinstalldir="/" md5sum="c2d61f8aacef342a73a88dd813ac7e0f" name="Validate/IS.php" role="php" />
-   <file baseinstalldir="/" md5sum="cc5f8500838cae72dbd8da104997198f" name="Validate/ISPN.php" role="php" />
-   <file baseinstalldir="/" md5sum="be07fd32cc9aa99c2bebad3d254f76fd" name="Validate/IT.php" role="php" />
-   <file baseinstalldir="/" md5sum="296bc5b49060942e300c7abab4f82155" name="Validate/LI.php" role="php" />
-   <file baseinstalldir="/" md5sum="e1034b94cc09c343222718d91ff7d77a" name="Validate/LU.php" role="php" />
-   <file baseinstalldir="/" md5sum="b1b4d0e8d514e14dde70cf241fde3eb9" name="Validate/LV.php" role="php" />
-   <file baseinstalldir="/" md5sum="851e3676a406b4674dd0d414e6a88642" name="Validate/NL.php" role="php" />
-   <file baseinstalldir="/" md5sum="01fa2b56c3f303bfd1b8d9cd7cd51cb3" name="Validate/NO.php" role="php" />
-   <file baseinstalldir="/" md5sum="6b2f90636544ab4294b9b58f95a82a77" name="Validate/NZ.php" role="php" />
-   <file baseinstalldir="/" md5sum="d4b7598bc2fd6ea88d26ec8260d9f731" name="Validate/ptBR.php" role="php" />
-   <file baseinstalldir="/" md5sum="095647e6931de4c82bf9b44896fc669e" name="Validate/SE.php" role="php" />
-   <file baseinstalldir="/" md5sum="8a7e80e51575eec4a2527603273fc6c1" name="Validate/UK.php" role="php" />
-   <file baseinstalldir="/" md5sum="75226afc31339fc59cf911c4d68d9045" name="Validate/US.php" role="php" />
-   <file baseinstalldir="/" md5sum="88c7e7c83af03d53e5fde3d68635fae8" name="Validate/World.php" role="php" />
    <file baseinstalldir="/" md5sum="eb611681c306b9a815f309a750546835" name="Validate/ZA.php" role="php">
     <tasks:replace from="@DATADIR@" to="data_dir" type="pear-config" />
    </file>
-   <file baseinstalldir="/" md5sum="e19ec48fd625db07c9fc47b3784a7614" name="Validate/Finance/CreditCard.php" role="php" />
-   <file baseinstalldir="/" md5sum="7906ebb7d7441d00f7d10c874158bc51" name="Validate/Finance/IBAN.php" role="php" />
-   <file baseinstalldir="/" md5sum="52cfe7be0bbf752838137688f58f898a" name="Validate/Finance/ISIN.php" role="php" />
-   <file baseinstalldir="/" md5sum="b7f6838c6d7647b95410d779273b5556" name="Validate/UK/carReg.php" role="php" />
    <file baseinstalldir="/" md5sum="f8790e48b597dff12a643e08e9be3fab" name="LICENSE" role="doc" />
   </dir>
  </contents>
