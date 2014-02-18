@@ -1,0 +1,32 @@
+{
+    "authors": [
+        {
+            "email": "jacques@php.net",
+            "name": "Jacques Marneweck",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Validate_ZA",
+    "include-path": [
+        "./"
+    ],
+    "license": "BSD Style",
+    "name": "pear/validate_za",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_ZA",
+        "source": "https://github.com/pear/Validate_ZA"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*",
+        "pear/validate": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
