@@ -16,7 +16,7 @@
  * @category  Validate
  * @package   Validate_ZA
  * @author    Jacques Marneweck <jacques@php.net>
- * @copyright 1997-2010 Jacques Marneweck
+ * @copyright 1997-2015 Jacques Marneweck
  * @license   http://www.opensource.org/licenses/bsd-license.php  New BSD License
  * @version   CVS: $Id$
  * @link      http://pear.php.net/package/Validate_ZA
@@ -38,7 +38,7 @@ require_once 'Validate.php';
  * @category  Validate
  * @package   Validate_ZA
  * @author    Jacques Marneweck <jacques@php.net>
- * @copyright 1997-2005 Jacques Marneweck
+ * @copyright 1997-2015 Jacques Marneweck
  * @license   http://www.opensource.org/licenses/bsd-license.php  New BSD License
  * @version   Release: @package_version@
  * @link      http://pear.php.net/package/Validate_ZA
@@ -114,6 +114,7 @@ class Validate_ZA
      *
      * @return  bool    true if valid else false
      * @access  public
+     * @static
      */
     function ssn($id)
     {
@@ -128,6 +129,20 @@ class Validate_ZA
          * Check that the date is valid
          */
         if (!Validate::date("$year-$month-$day", array('format' => '%y-%m-%d'))) {
+            return false;
+        }
+
+        /**
+         * Check citizenship of the users id (0 = .za, 1 = other)
+         */
+        if (!in_array($id{10}, array(0, 1))) {
+            return false;
+        }
+
+        /**
+         * 'A' digit
+         */
+        if (!in_array($id{11}, array(8, 9))) {
             return false;
         }
 
