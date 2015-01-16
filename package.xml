@@ -13,19 +13,19 @@
   <email>jacques@php.net</email>
   <active>no</active>
  </lead>
- <date>2011-11-26</date>
- <time>21:50:33</time>
+ <date>2015-01-16</date>
+ <time>21:18:19</time>
  <version>
-  <release>0.2.2</release>
-  <api>0.2.2</api>
+  <release>0.2.3</release>
+  <api>0.2.3</api>
  </version>
  <stability>
-  <release>alpha</release>
-  <api>alpha</api>
+  <release>beta</release>
+  <api>beta</api>
  </stability>
  <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
  <notes>
-Updated to Package 2.0, fixed Request #12150 - Improve coding standard adherence
+Tweaks on validation so that post 1987 reissuing of ID numbers are validated.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -107,6 +107,21 @@ First release
    <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
    <notes>
 Updated to Package 2.0, fixed Request #12150 - Improve coding standard adherence
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.3</release>
+    <api>0.2.3</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2015-01-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+Tweaks on validation so that post 1987 reissuing of ID numbers are validated.
    </notes>
   </release>
  </changelog>
