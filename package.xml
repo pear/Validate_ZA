@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+<package packagerversion="1.9.5" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
  <name>Validate_ZA</name>
  <channel>pear.php.net</channel>
  <summary>Validation class for ZA</summary>
@@ -14,7 +14,7 @@
   <active>no</active>
  </lead>
  <date>2015-01-16</date>
- <time>21:18:19</time>
+ <time>21:22:17</time>
  <version>
   <release>0.2.3</release>
   <api>0.2.3</api>
@@ -31,7 +31,7 @@ Tweaks on validation so that post 1987 reissuing of ID numbers are validated.
   <dir baseinstalldir="/" name="/">
    <file baseinstalldir="/" md5sum="a84092ceaae3b337d79e09f8768085df" name="data/ZA_postcodes.txt" role="data" />
    <file baseinstalldir="/" md5sum="44974f547e89a9a52e8ae95463318088" name="tests/validate_ZA.phpt" role="test" />
-   <file baseinstalldir="/" md5sum="eb611681c306b9a815f309a750546835" name="Validate/ZA.php" role="php">
+   <file baseinstalldir="/" md5sum="f53a23b7e91ed5c84738f073e2a65713" name="Validate/ZA.php" role="php">
     <tasks:replace from="@DATADIR@" to="data_dir" type="pear-config" />
    </file>
    <file baseinstalldir="/" md5sum="f8790e48b597dff12a643e08e9be3fab" name="LICENSE" role="doc" />
