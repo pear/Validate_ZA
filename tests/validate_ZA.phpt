@@ -3,7 +3,7 @@ validate_ZA.phpt: Unit tests for 'Validate/ZA.php'
 --FILE--
 <?php
 // $Id$
-
+$validator = new Validate_ZA();
 // Validate test script
 $noYes = array('NO', 'YES');
 require_once 'Validate/ZA.php';
@@ -29,12 +29,12 @@ $regions = array('WC', // OK
   
 echo "Test postalCode\n";
 foreach ($postalCodes as $postalCode) {
-    echo "{$postalCode}: ".$noYes[Validate_ZA::postalCode($postalCode)]."\n";
+    echo "{$postalCode}: ".$noYes[$validator->postalCode($postalCode)]."\n";
 }
 
 echo "\nTest region\n";
 foreach ($regions as $region) {
-    echo "{$region}: ".$noYes[Validate_ZA::region($region)]."\n";
+    echo "{$region}: ".$noYes[$validator->region($region)]."\n";
 }
 ?>
 --EXPECT--
